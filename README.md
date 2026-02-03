@@ -85,4 +85,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img width="974" height="622" alt="image" src="https://github.com/user-attachments/assets/da9a490c-3e6a-40e1-9b47-e09b903ab703" />
 
 <br />
+7. Inspecting SSH Traffic:
+- Action: The presenter uses SSH from the Windows VM to connect to the Linux VM, while Wireshark is configured to filter for SSH traffic.
+- Observation: As commands are typed and executed in the SSH session, Wireshark captures and displays the corresponding SSH packets, illustrating the ongoing communication between the two virtual machines.
+<img width="1076" height="647" alt="image" src="https://github.com/user-attachments/assets/82a2331d-1f71-4163-b364-19c6aeb1c83d" />
+
 <br />
