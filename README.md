@@ -58,7 +58,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
 3. Deploying the Windows Virtual Machine:
 - Action: A Windows 10 Pro virtual machine is configured and deployed in the same resource group and virtual network as the Linux VM, using the same "lab user" and password.
-- Observation: The Windows VM deployment also initiates, setting up the second 
+- Observation: The Windows VM deployment also initiates, setting up the second machine for inter-VM communication and traffic inspection.
   <p>
 </p>
   <br />
