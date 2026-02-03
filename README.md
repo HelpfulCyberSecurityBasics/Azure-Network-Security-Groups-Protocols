@@ -62,3 +62,20 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
 </p>
 <br />
+4. Installing Wireshark on Windows VM:
+- Action: The presenter downloads and installs Wireshark, a network traffic analyzer, directly onto the Windows virtual machine.
+- Observation: Wireshark is successfully installed and launched, ready to capture and display network traffic.
+<img width="1205" height="401" alt="image" src="https://github.com/user-attachments/assets/98488c67-b718-479a-b5b2-a51a07b64ad5" />
+<img width="948" height="421" alt="image" src="https://github.com/user-attachments/assets/8dc44345-9bf1-4813-b3c5-a24059b017d8" />
+<img width="549" height="465" alt="image" src="https://github.com/user-attachments/assets/28202b45-0c04-4247-9500-fcff7c2e5d97" />
+
+<br />
+
+5. Observing ICMP Traffic (Ping) between VMs:
+- Action: A ping command is executed from the Windows VM to the private IP address of the Linux VM, and Wireshark is used to filter for ICMP traffic.
+- Observation: Wireshark clearly displays the ICMP request and reply packets, showing communication between the source (Windows VM) and destination (Linux VM), confirming connectivity.
+<img width="1113" height="520" alt="image" src="https://github.com/user-attachments/assets/69bd1f8f-2e92-4493-a6c6-aa21aa621900" />
+
+<br />
+<br />
+<br />
