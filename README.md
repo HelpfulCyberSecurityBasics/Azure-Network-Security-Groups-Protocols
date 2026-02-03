@@ -69,7 +69,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <br />
 4. Installing Wireshark on Windows VM:
-- Action: The presenter downloads and installs Wireshark, a network traffic analyzer, directly onto the Windows virtual machine.
+- Action: Download and install Wireshark, a network traffic analyzer, directly onto the Windows virtual machine.
 - Observation: Wireshark is successfully installed and launched, ready to capture and display network traffic.
  <p>
 </p>
@@ -101,7 +101,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <br />
 7. Inspecting SSH Traffic:
-- Action: The presenter uses SSH from the Windows VM to connect to the Linux VM, while Wireshark is configured to filter for SSH traffic.
+- Action: Use SSH from the Windows VM to connect to the Linux VM, while Wireshark is configured to filter for SSH traffic.
 - Observation: As commands are typed and executed in the SSH session, Wireshark captures and displays the corresponding SSH packets, illustrating the ongoing communication between the two virtual machines.
  <p>
 </p>
