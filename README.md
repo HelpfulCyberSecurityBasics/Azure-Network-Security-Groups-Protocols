@@ -77,5 +77,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img width="1113" height="520" alt="image" src="https://github.com/user-attachments/assets/69bd1f8f-2e92-4493-a6c6-aa21aa621900" />
 
 <br />
+6. Blocking ICMP Traffic with a Network Security Group Rule:
+- Action: An inbound port rule is created in the Linux VM's network settings to deny ICMP traffic with a high priority.
+- Observation: Immediately, the ping commands from the Windows VM start timing out, and Wireshark stops showing ICMP communication, demonstrating the 
+<img width="1307" height="541" alt="image" src="https://github.com/user-attachments/assets/4bab433b-c198-4e02-8875-074fed383430" />
+<img width="1306" height="609" alt="image" src="https://github.com/user-attachments/assets/17487f3d-ba91-40ad-8144-8e165aa35dd3" />
+<img width="974" height="622" alt="image" src="https://github.com/user-attachments/assets/da9a490c-3e6a-40e1-9b47-e09b903ab703" />
+
 <br />
 <br />
